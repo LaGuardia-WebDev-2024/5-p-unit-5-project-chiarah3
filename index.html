@@ -1,14 +1,14 @@
 <!-- Unit 5 Project
 Requirements
-[  ] <div> and <span>
-[  ] height: and width:
-[  ] margin: and padding: 
-[  ] Three Images
+[ yes ] <div> and <span>
+[ yes ] height: and width:
+[ yes ] margin: and padding: 
+[ yes ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Flexbox
 [ no ] Feature 2 - Flip Card
-[ no ] Feature 3 - Navbar
+[ yes ] Feature 3 - Navbar
 [ no ] Feature 4 - Shaking Animation
 [ no ] Feature 5 - Gradient Background
 [ no ] Feature 6 - Spotify Playlist
@@ -16,17 +16,103 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Unit 5 Project</title>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        background-color: rgb(74, 17, 22);
+      }
+      @font-face {
+        font-family: home;
+        src: url(https://cdn.glitch.global/676dabeb-ea2c-4051-919f-cfb9e12357aa/Holmesh.otf?v=1732207728342);
+      }
+      .header {
+        font-family: home;
+        font-style: italic;
+        font-size: 100px;
+        text-align: center;
+        color: white;
+      }
+      .header1 {
+        font-family: home;
+        font-style: italic;
+        font-size: 30px;
+        text-align: center;
+        color: white;
+      }
+      .photos {
+        background-color: darkgreen;
+        padding: 15px;
+        align: center;
+        display: flex
+      }
+      .market1 {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+          width: 250px;
+          height:150px
+      }
+      .market2 {
+         display: block;
+  margin-left: auto;
+  margin-right: auto;
+        width: 250px;
+          height:150px
+      }
+      p {
+        color: white;
+        text-align: center;
+      }
 
-<head>
-  <title>Unit 5 Project</title>
-  <meta charset="utf-8">
-  <style>
-
-  </style>
-</head>
-<body>
-
- 
-
-</body>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: darkgreen;
+        overflow: hidden;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+      }
+      li {
+        display: inline;
+      }
+      li a {
+        text-decoration: none;
+        padding: 8px;
+        background-color: darkred;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <h1 class="header">You're Invited</h1>
+    <h4 class="header1">to have the best holiday season ever</h4>
+    <div class="photos">
+      <img
+        class="market1"
+        src="https://th-thumbnailer.cdn-si-edu.com/EZsFubsXUdEOTPaVYm-EdMd-ue0=/fit-in/1600x0/filters:focal(3200x2133:3201x2134)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/f8/8e/f88ec938-d321-4859-9e47-3451dc740267/gettyimages-478821816.jpg"
+        width="300"
+      />
+      <img
+        class="market2"
+        src="https://christmasmarketusa.com/wp-content/uploads/2024/06/image-746.jpeg"
+        width="290"
+      />
+      <br />
+    </div>
+    <div>
+      <p>
+        I would like to formally invite you to have a lovely holiday season, and
+        here are some options for things to make the lights shine brighter! <br>
+        Me personally I'm really sleepy. So for me, what sounds like the perfect thing ever is drifting between sleep and wakefulness while listening to jazz with dim warm lighting with someone I love and trust, that's tbh all i want guys im so tired i can't think of real things to write about it right now. I think nap time sounds very nice this holiday season. <br> 
+        <strong>night night !!!!!</strong>
+    </div>
+  </body>
 </html>
